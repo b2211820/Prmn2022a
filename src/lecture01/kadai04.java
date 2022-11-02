@@ -1,7 +1,5 @@
 package lecture01;
 
-import java.util.Scanner;
-
 public class kadai04 {
     public static void main (String[] args){
         int [] array = new int[100];
