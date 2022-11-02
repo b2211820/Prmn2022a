@@ -3,8 +3,8 @@ package lecture01;
 import java.util.Scanner;
 
 public class kadai05 {
-    public static void main (String[] args){
-        int[] score = {41,85,72,38,80};
+    public static void main(String[] args) {
+        int[] score = {41, 85, 72, 38, 80};
 
         Scanner input = new Scanner(System.in);
 
@@ -13,10 +13,10 @@ public class kadai05 {
 
         Kansuu k = new Kansuu();
         int min = k.min(score);
-        System.out.println("最低点"+ min);
+        System.out.println("最低点" + min);
         int max = k.max(score);
-        System.out.println("最高点"+max);
+        System.out.println("最高点" + max);
         double average = k.average(score);
-        System.out.println("平均点"+average);
+        System.out.println("平均点" + average);
     }
 }
